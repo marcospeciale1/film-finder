@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* header section */
+header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  background-color: blue;
+}
+header img {
+  width: 100px;
+  height: 100px;
+}
+
+header form,
+header div {
+  display: flex;
+  align-items: center;
+}
+
+/* main conten section*/
+main {
+  display: flex;
+}
+/* filter section */
+section {
+  width: 20%;
+  height: 100vh;
+  background-color: red;
+}
+section form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* post section */
+#posts-container {
+  width: 80%;
+  height: 100vh;
+  background-color: yellow;
+}
+/* footer */
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+}
